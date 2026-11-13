@@ -1,0 +1,17 @@
+fastapi                  #FastAPI framework for building APIs and web applications
+uvicorn[standard]        #Server to run the FastAPI application
+jinja2                   #Template engine for rendering HTML templates "UI"
+python-multipart         #Support for handling file uploads in FastAPI 
+pydantic-settings        #Settings management for Pydantic models
+langgraph                #For the entire agentic workflow creation and management 
+langchain-core           #Core functionality for LangChain
+langchain-community      #Loading extensions, data connectors, and additional tools for LangChain 
+langchain-openai         #OpenAI integration for LangChain
+langchain-tavily         #Web Search tool
+langchain-pinecone       #Pinecone integration for LangChain
+langchain-text-splitters #Text splitting utilities for LangChain "CHUNKING"
+pinecone                 #Pinecone client for LangChain "Vector DB"
+openai                   #For the embeddings and LLM provider
+pypdf                    #PDF handling library
+python-docx              #Word document handling library
+python-dotenv            #Environment variable management
